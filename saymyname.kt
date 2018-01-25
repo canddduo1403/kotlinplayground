@@ -1,4 +1,5 @@
 fun main(args:Array<String>){
-val name = readLine()
-  println("Pleased to meet you $name")
+  print("What is your name?: ")
+  val name = readLine()
+  println("Pleased to meet you $name.")
 }
